@@ -11,7 +11,7 @@ def get_mean(total_sum,total_values):
 def get_median(total_values,new_data):
     if(total_values % 2 ==0):
         median1=float(new_data[total_values//2])
-        median2=float(new_data[total_values//2])
+        median2=float(new_data[total_values//2+1])
         median=float(median1+median2)/2
     
     else:
